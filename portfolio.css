@@ -1,0 +1,179 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    background-color: #111;
+    color: #fff;
+}
+/* .navbar1 .navbar{
+    position: fixed;
+} */
+
+.navbar1 .navbar .nav .nav-item .nav-link{
+    color: #fff;
+}
+.navbar1 .navbar .nav .nav-item .nav-link:hover{
+    color: rgb(155,20,30);
+}
+.navbar1 .scrollspy-example .body-1 {
+    display: flex;
+    justify-content: space-between;
+    font-size: 150%;
+    
+}
+.navbar1 .scrollspy-example h4{
+    margin-left: 13%;
+    font-size: 170%;
+}
+
+.navbar1 .scrollspy-example .body-1 p{
+    margin: 5% 5% 0% 15%;
+    font-size: 100%;
+}
+.navbar1 .scrollspy-example .body-1 p i{
+    margin-right: 5%;
+}
+.navbar1 .scrollspy-example .body-1 p i:hover{
+    color: rgb(155,20,30);
+    cursor: pointer;
+}
+.navbar1 .scrollspy-example .body-1 p button:hover{
+    color: #fff;
+    background-color: #111;
+}
+.navbar1 .scrollspy-example p{
+    margin: 5% 5% 0% 15%;
+    font-size: 120%;
+}
+.body-1 img{
+    height: 30%;
+    width: 30%;
+    margin-right:10%; 
+    border-radius: 50%;
+}
+.navbar1 .nav-item a{
+    color: #fff;
+}
+.navbar1 .card2{
+    margin: 5% 5% 0% 15%;
+}
+.navbar1 .card2{
+    margin: 5% 5% 0% 15%;
+    display: flex;
+    justify-content: space-between;
+}
+.navbar1 .card2 .card{
+    margin: 2% 3%;
+    width: 150%;
+}
+.cert{
+    display: flex;
+    margin:5% 5% 0% 15%;
+}
+.cert img{
+    margin: 2% 3%;
+}
+h4{
+    color: red;
+}
+.contact{
+    text-align: center;
+    padding: 5% 0%;
+  }
+  .contact form{
+    margin: 10px 25px;
+  }
+  .contact input{
+    height: 50px;
+    width: 35%;
+    background-color:#111;
+    outline: none;
+    border: 1px solid rgb(213, 78, 66);
+    color: #fff;
+    border-radius: 3px;
+    font-size: 1rem;
+    margin: 1% 3px;
+  }
+  .contact input::placeholder{
+    color: #beb2b2;
+    left: 20px;
+    top: 15px;
+    font-size: 1rem;
+    padding: 10% 4%;
+  }
+  .contact .submit{
+    font-size: 20px;
+    background-color:#1f1d3b ;
+    color:  rgb(213, 78, 66);
+    border-radius: 5px;
+    border: 2px solid rgb(213, 78, 66);
+    padding: 2px 30px ;
+    margin: 0px 20px 0px 0px;
+  }
+  .contact .submit:hover{
+    color: #1f1d3b;
+    background-color: rgb(213, 78, 66);
+    transition: ease-in-out 0.4s;
+  }
+  @media (max-width: 768px) {
+
+
+    .navbar1 .scrollspy-example .body-1 {
+        flex-direction: column;
+        align-items: center;
+        font-size: 120%;
+    }
+
+    .navbar1 .scrollspy-example h4 {
+        margin-left: 0;
+        font-size: 150%;
+    }
+
+    .navbar1 .scrollspy-example .body-1 p {
+        margin: 5% 5%;
+        font-size: 90%;
+        text-align: center;
+    }
+
+    .navbar1 .card2 {
+        margin: 5% 5%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navbar1 .card2 .card {
+        margin: 2% 0;
+        width: 90%;
+    }
+
+    .cert {
+        margin: 5% 5%;
+        flex-direction: column;
+        align-items: center;
+    }
+    .navbar1 .scrollspy-example .card2 .card{
+        width: 80% !important;
+        box-shadow : 0 0 10px #333;
+    }
+    .cert img {
+        margin: 2% 0;
+        width: 80%;
+    }
+
+    .contact {
+        padding: 5% 0;
+    }
+
+    .contact form {
+        margin: 10px 0;
+    }
+
+    .contact input {
+        width: 80%;
+    }
+
+    .contact .submit {
+        margin: 20px 0 0 0;
+    }
+}
+
